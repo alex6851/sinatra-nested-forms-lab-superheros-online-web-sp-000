@@ -1,3 +1,16 @@
-
-
-
+<h1>Display your Team here</h1>
+<div class="team">
+  <h3><%= @team.name%></h3><br>
+  <h4>Team Motto: <%= @team.motto %></h4>
+  <br>
+  <h4>Hero Name:<%= Hero.all[0].name%></h4><br>
+  <h5>Hero Power: <%= Hero.all[0].power%></h5>
+  <h5>Hero Biography: <%= Hero.all[0].bio%></h5><br>
+  <h4>Hero Name:<%= Hero.all[1].name%></h4><br>
+  <h5>Hero Power: <%= Hero.all[1].power%></h5>
+  <h5>Hero Biography: <%= Hero.all[1].bio%></h5><br>
+  <h4>Hero Name:<%= Hero.all[2].name%></h4><br>
+  <h5>Hero Power: <%= Hero.all[2].power%></h5>
+  <h5>Hero Biography: <%= Hero.all[2].bio%></h5><br>
+  <%#binding.pry%>
+</div><br>
